@@ -1,0 +1,23 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-color: #404040;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+

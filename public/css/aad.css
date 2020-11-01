@@ -1,23 +1,219 @@
-html, body {
-    background-color: #fff;
-    color: #636b6f;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200;
-    height: 100vh;
-    margin: 0;
+:root {
+    --primary: black;
+}
+
+
+* {
+    box-sizing: border-box; /* allows addition of padding and border without adding width to element */
+    padding: 0;
+    margin: 0;  /*resets all padding and margins to all elements to 0 */
+}
+
+
+
+body {
+    font-family: 'Nunito', 'sans-serif'; /*set font family and alternatives */
+    background-color: white;
+    line-height: 1.9em; /* increase spacing between the lines */
+
 }
 
 ul {
-    list-style: none;
-}
-
-nav {
-    background-color: #404040;
-    height: 200px;
+    list-style: none; /* remove bullets from list */
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /*remove underline from links */
+}
+
+h1,
+h2 {
+    font-weight: 400;
+    line-height: 1.2em;
+
+}
+
+p {
+    margin: 10px 0;
+
+}
+
+
+
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--primary);
+    color: white;
+    height: 100px;
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    color: grey;
+
+}
+
+.navbar .flex {
+    justify-content: space-between;
+
+}
+
+/* HEADER */
+
+.header {
+    height: 400px;
+    background-color: var(--primary);
+    color: whitesmoke;
+}
+
+.header .grid {
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+    overflow: visible;
+}
+
+
+
+.header-image img {
+
+    top: 1px;
+    height: 450px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+
+    animation: slideInFromRight 1s ease-in;
+}
+
+.header-hashtag {
+    font-style: italic;
+    color: grey;
+    font-size: 20px;
+}
+/* CAKES */
+
+.cakes  {
+    color: whitesmoke;
+    padding-top: 100px;
+}
+
+
+.cakes .card {
+
+    height: 400px;
+    width: 325px;
+
+}
+
+.cakes .card img {
+    top: 1px;
+    height: 325px;
+    width: 250px;
+    padding: 40px;
+
+}
+
+.cakes .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-cards {
+    width: 100%;
+    color: whitesmoke;
+    padding-top: 200px;
+}
+
+.logo-cards .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    justify-content: left;
+    align-items: left;
+    height: 100%;
+
+}
+
+.logo-cards p {
+    color: black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 28px;
+}
+
+
+
+
+
+/* MAIN */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+.card {
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow:  0 3px 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer {
+    margin-top: 100px;
+    height: 200px;
+    background-color: black;
+    color: white;
+
+}
+
+.footer a{
     color: white;
 }
 
+.footer .social a {
+    margin: 0 10px;
+  }
+
+  .fa-heart {
+	color: red;
+  }

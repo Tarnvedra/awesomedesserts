@@ -1,14 +1,17 @@
-<nav>
-<a href="#"><img src="images/aad-logo4.png" width="450" height="250"></a>
-
-<ul>
+<div class="navbar">
+<div class="container flex">
+<h1 class="logo">Agnieszka's Awesome Desserts</h1>
+ <nav>
+    <ul>
 <li><a href="/">Home</li>
-<li><a href="/">About</li>
 <li><a href="/">Gallery</li>
+<li><a href="/">About</li>
 <li><a href="/">Contact</li>
 
 
-</ul>
+    </ul>
 
+ </nav>
 
-</nav>
+</div>
+</div>

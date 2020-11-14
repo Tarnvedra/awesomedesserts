@@ -1,6 +1,6 @@
 <div class="navbar">
 <div class="container flex">
-<h1 class="logo">Agnieszka's Awesome Desserts</h1>
+<h3 class="logo">Agnieszka's Awesome Desserts</h3>
  <nav>
     <ul>
 <li><a href="/">Home</li>

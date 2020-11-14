@@ -103,6 +103,7 @@ p {
     color: grey;
     font-size: 20px;
 }
+
 /* CAKES */
 
 .cakes  {
@@ -158,10 +159,6 @@ p {
     font-size: 28px;
 }
 
-
-
-
-
 /* MAIN */
 .container {
     max-width: 1300px;
@@ -216,4 +213,45 @@ p {
 
   .fa-heart {
 	color: red;
+  }
+
+
+/* MEDIA QUERIES */
+
+  @media (max-width: 950px) {
+    .grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    .header-image img {
+        top: 1px;
+        height: 150px;
+        width: 125px;
+        padding: 2px;
+
+    }
+  }
+
+
+  @media (max-width: 590px) {
+    .navbar {
+      height: 110px;
+    }
+
+    .navbar .flex {
+      flex-direction: column;
+    }
+
+    .navbar ul {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .header-image img {
+        top: 1px;
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+
+    }
   }

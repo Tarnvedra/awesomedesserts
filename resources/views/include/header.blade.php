@@ -6,7 +6,7 @@
      <p class="header-hashtag">#loveforbaking #bakingislove #cakedecoration #freshcreamcake #fruitandcreamcake #cakeoftheday #cakesofinstagram</p>
      </div>
      <div class="header-image card">
-        <h2>#Baking is my Passion</h2>
+        <h2 class="card-text">#Baking is my Passion</h2>
         <img src="images/aad-logo8.png" >
     </div>
 <div>

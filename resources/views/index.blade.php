@@ -14,7 +14,7 @@
                  <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>  -->
                 </div><!-- /.col-lg-4 -->
                 <div class="col-sm-3">
-                  <img class="rounded-circle" src="{{ asset('images/birthdaycake-2.jpg') }}" alt="Generic placeholder image" width="200" height="200">
+                  <img class="rounded-circle" src="{{ asset('images/fl-cake.jpg') }}" alt="Generic placeholder image" width="200" height="200">
                 <!--  <h2>Heading</h2> -->
                   <p class="pt-2">Fault line birthday cake.Cake#birthday #birthdaycake #birthdaycake #baking #bakingfromscratch #bakingbirthdaycake #bakingtherapy #bakinglove }bakingtime #bakingaddiction #bakingmyfeelings #bakingmylifeaway #birthdaycakephoto #cakeoftheday #cakeofinstagram</p>
                  <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->

@@ -7,11 +7,7 @@
      </div>
      <div class="header-image card">
         <h2>#Baking is my Passion</h2>
-        <img src="images/birthdaycake.jpg" >
+        <img src="images/aad-logo8.png" >
     </div>
-
-
-
-
 <div>
 </section>
